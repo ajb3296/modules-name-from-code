@@ -2,6 +2,14 @@
 
 Get modules name from your python code
 
+## How to install?
+
+PYPI : https://pypi.org/project/modules-name-from-code/1.0.0/
+
+```
+pip install modules-name-from-code
+```
+
 ## Example
 
 /home/mycode.py :
@@ -14,9 +22,9 @@ from module4 import module
 ```
 
 ```python
-import getmodules.get_modules
+import getmodules
 
-print(get_modules("/home/mycode.py"))
+print(getmodules.get_modules("/home/mycode.py"))
 ```
 Result :
 ```python
@@ -24,9 +32,9 @@ Result :
 ```
 Or
 ```python
-import getmodules.get_modules
+import getmodules
 
-print(get_modules("/home/mycode.py", sort=True))
+print(getmodules.get_modules("/home/mycode.py", sort=True))
 ```
 Result :
 ```python

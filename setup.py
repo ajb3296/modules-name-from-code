@@ -15,6 +15,7 @@ setuptools.setup(
     author_email="ajb8533296@gmail.com",
     description="Get modules name from your python code",
     long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     url="https://github.com/ajb3296/modules-name-from-code",
     packages=setuptools.find_packages(),
     classifiers=[
