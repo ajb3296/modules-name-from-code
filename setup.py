@@ -2,7 +2,7 @@ import re
 import setuptools
 
 version = ""
-with open("modules-name-from-code/__init__.py", encoding="UTF8") as f:
+with open("getmodules/__init__.py", encoding="UTF8") as f:
     version = re.search(
         r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE
     ).group(1)
