@@ -4,7 +4,7 @@ Get modules name from your python code
 
 ## How to install?
 
-PYPI : https://pypi.org/project/modules-name-from-code/1.0.0/
+PYPI : https://pypi.org/project/modules-name-from-code/
 
 ```
 pip install modules-name-from-code
